@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Linking CSS file -->
+    <link href="css/css.css" rel="stylesheet">
+    <script src="javascript/javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- reference: w3schools -->
+    <!-- Page Title -->
+    <title>Big Slimes Barbershops</title> 
+</head>
+
+<body>
+
+    <!-- Title at the top of the website -->
+    <header style="background-image: url('images/titleImage.jpg')">
+        <h1 id="title">Big Slimes Barbershops</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="Barberpage.html">Barbershops</a>
+            <a href="Freeagentpage.html">Free Agents</a>
+            <a href="Supportpage.html">Support</a>
+            <a href="#" id="currentPage">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <br/>
+    </nav>
+
+
+    <!-- WRITE PAGE CODE HERE BELOW XD-->
+    
+    <form id="loginform" action="https://webdevbasics.net/scripts/demo.php" method="post">
+        <p id="wip"> Account creation is still a work in progress</p><br>
+
+        <label for="Name"> <b>Fullname:</b></label>
+        <input type="text" id="Name" name="Name" placeholder="John Doe" value=""><br><br>
+
+        <label for="username"> <b>Username:</b></label>
+        <input type="text" id="Username" name="Username" placeholder="John1231" value=""><br><br>
+
+        <label for="password"> <b>Password:</b></label>
+        <input type="text" id="password" name="password" placeholder="P@ssw0rd" value=""><br><br>
+
+        <label for="Email"> <b>Email:</b></label>
+        <input type="text" id="Email" name="Email" placeholder="example@gmail.com" value=""><br><br>
+
+
+
+        <label for="gender"> <b>Gender:</b></label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+       
+  
+   
+        <br><input type="submit"><br>
+       
+    </form>
+
+    <!-- Footer -->
+    <footer>
+        <p>Big Slimes: Benedict De Vera, Justine Miranda, Kevin Tran, Vedasto Alarcon</p>
+    </footer>
+</body>
+
+</html>
